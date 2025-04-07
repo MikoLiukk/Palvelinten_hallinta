@@ -18,6 +18,7 @@ Komennoilla ``` vagrant box add ubuntu/focal64```, ``` vagrant init ubuntu/focal
 
 ![Näyttökuva 2025-04-06 165820](https://github.com/user-attachments/assets/27f5b249-7485-455e-b187-0ed557765e77)
 
+Käynnistin virtuaalikoneen komennolle ```vagrant up```.
 Kun yritin ottaa yhteyttä koneeseen ```vagrant ssh``` komennolla, se onnistui.
 
 ![Näyttökuva 2025-04-06 171106](https://github.com/user-attachments/assets/df4c818b-1e0a-4a2c-8d50-dec85cffe5c9)
