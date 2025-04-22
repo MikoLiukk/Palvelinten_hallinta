@@ -40,7 +40,10 @@ index_html:
     - contents: |
         Hengissä 22.4.2025
 ```
-.sls tiedoston luominen onnistui, mutta komennon ajaminen minioneille toi ongelmia, mihin viittasin edellisessä viikko tehtävässä.
+.sls tiedoston luominen onnistui, mutta komennon ajaminen minioneille toi ongelmia, mihin viittasin edellisessä viikko tehtävässä. Jostain syystä koneiden uudelleen käynnistys korjasi ongelman hetkellisesti.
+
+
+![Näyttökuva 2025-04-22 115603](https://github.com/user-attachments/assets/58e03761-1c31-4617-8268-b510d70172d5)
 
 ![Näyttökuva 2025-04-22 115627](https://github.com/user-attachments/assets/146fd6b3-7c11-45a5-b97a-5a479c703833)
 
@@ -50,3 +53,23 @@ Ongelma liittyi "oom-kill" "prosessiin" tai vastaavaa, mutta virtuaalikoneessa e
 Poistun masterilta ja tarkitin toimivuuden minionilla ja siellähän localhost olikin "Hengaillaa".
 
 ![Näyttökuva 2025-04-22 120046](https://github.com/user-attachments/assets/a10ad985-ea46-47b7-9a25-4c4824450fd7)
+
+
+## b) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
+Aluksi testattiin, että portti 8888 oli kiinni ja se olikin ```ssh -p 8888 vagrant@192.168.33.101```.
+
+```sudoedit /etc/ssh/sshd_config``` --> sshd konffaus tiedosto --> 
+```
+# Lines omitted for brevity
+Port 22
+Port 8888
+# Lines omitted for brevity
+```
+
+![Näyttökuva 2025-04-22 154707](https://github.com/user-attachments/assets/4dacd2ef-8ee4-476a-a092-24423cb9d1fc)
+
+Tämän jälkeen kun näitä yritin ajaa minioneille alkoi tapahtumaan taas, (sama oom-kill)
+
+![Näyttökuva 2025-04-22 160907](https://github.com/user-attachments/assets/fa90c8e4-e719-454c-a34d-df8d27af8de1)
+
+
