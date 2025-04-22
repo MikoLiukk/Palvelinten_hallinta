@@ -42,5 +42,11 @@ index_html:
 ```
 .sls tiedoston luominen onnistui, mutta komennon ajaminen minioneille toi ongelmia, mihin viittasin edellisessä viikko tehtävässä.
 
+![Näyttökuva 2025-04-22 115627](https://github.com/user-attachments/assets/146fd6b3-7c11-45a5-b97a-5a479c703833)
 
- 
+ ![Näyttökuva 2025-04-22 115943](https://github.com/user-attachments/assets/723ed918-76f4-4c4f-8c8a-053ca7c6b2a8)
+
+Ongelma liittyi "oom-kill" "prosessiin" tai vastaavaa, mutta virtuaalikoneessa ei ollut tarpeeksi muistia.
+Poistun masterilta ja tarkitin toimivuuden minionilla ja siellähän localhost olikin "Hengaillaa".
+
+![Näyttökuva 2025-04-22 120046](https://github.com/user-attachments/assets/a10ad985-ea46-47b7-9a25-4c4824450fd7)
