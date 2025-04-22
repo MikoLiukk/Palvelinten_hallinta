@@ -72,4 +72,29 @@ Tämän jälkeen kun näitä yritin ajaa minioneille alkoi tapahtumaan taas, (sa
 
 ![Näyttökuva 2025-04-22 160907](https://github.com/user-attachments/assets/fa90c8e4-e719-454c-a34d-df8d27af8de1)
 
+Koitin testi pinggiä.
 
+![Näyttökuva 2025-04-22 161231](https://github.com/user-attachments/assets/06dc99b5-633c-437b-bf40-0a911fe4e9a1)
+
+Toinen minioneista oli kuollut.
+
+![Näyttökuva 2025-04-22 161612](https://github.com/user-attachments/assets/8a7287e5-e711-4d3f-b48b-3b11ea1ff699)
+![Näyttökuva 2025-04-22 161614](https://github.com/user-attachments/assets/8a4cdda9-e9cc-4e32-8cde-b47a94173106)
+![Näyttökuva 2025-04-22 161713](https://github.com/user-attachments/assets/74d1d482-d3ce-4086-aba7-5b45f35f41c5)
+![Näyttökuva 2025-04-22 161715](https://github.com/user-attachments/assets/4a0a9388-8ce8-4474-96c4-7bc3124e8c7b)
+![Näyttökuva 2025-04-22 162455](https://github.com/user-attachments/assets/e37c0b90-c608-4c48-befe-1988a45e3aa6)
+![Näyttökuva 2025-04-22 162538](https://github.com/user-attachments/assets/fb531935-6e78-4b28-84c0-1c0cb3fb8643)
+![Näyttökuva 2025-04-22 162541](https://github.com/user-attachments/assets/2943202f-b51e-4b9c-a2d9-622ded05834a)
+
+Näillä avuilla (ChatGPT) sain korjattua virheen vihdoin pois.
+
+![Näyttökuva 2025-04-22 162646](https://github.com/user-attachments/assets/5435ad1e-3bc3-4526-8298-ca64402e8d73)
+![Näyttökuva 2025-04-22 162826](https://github.com/user-attachments/assets/43cce057-b931-4481-a235-8cb5067764d0)
+![Näyttökuva 2025-04-22 162907](https://github.com/user-attachments/assets/f690b12e-0992-4efd-8565-56c12040244e)
+
+## Lähteet
+https://terokarvinen.com/palvelinten-hallinta/
+https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh
+https://terokarvinen.com/2018/apache-user-homepages-automatically-salt-package-file-service-example/
+https://github.com/jndg/palvelintenhallinta/blob/main/h4.md
+http://chatgpt.com
