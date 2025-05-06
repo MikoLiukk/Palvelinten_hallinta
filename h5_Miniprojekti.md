@@ -2,6 +2,7 @@
 # Linkki projektin loppu tulokseen: https://github.com/MikoLiukk/Miniprojekti/tree/master
 
 Kaikki projektiin liittyvät tiedostot ja tiedostopuu löytyvät ylläolevasta linkistä, joten en niitä käy erikseen läpi.
+Myös käytettävät teknologiat löytyvät linkistä.
 
 ### Projektin toteutus
 Halusin tehdä automatisoidun palvelinympäristön, joka käyttää kurssilla käytettyä Saltia.
